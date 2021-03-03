@@ -8,11 +8,7 @@ An AI method that takes an input string and makes a 3D model (or ideally various
 
 
 ## Background
-
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
 This method would allow people to easily make 3D models of objects without needing any knowledge of 3D modeling while at the same time serving as a better starting point for projects for people who do know how to 3D model and have something in mind. Basically, this idea would come in useful when digital artists, architects or just people who need to make a 3D model need inspiration or a better starting point for a 3D object or shape. 3D artists could use this to start their models from a shape that already resembles what they want to a achieve and that way would save time every time they start a project. This could have a big impact on 3D artists who work on 3D models every day and a smaller but still notable impact on people's personal projects such as 3D printing things for fun or as a hobby.
-
 
 My main motivaiton is just that I think this idea would be really cool to have (especially combined with a 3D printer) and that a lot of people could use this idea either to make their work easier, faster and lighter or to use it in creative and innovative ways and inspire them to make other cool projects.
 
