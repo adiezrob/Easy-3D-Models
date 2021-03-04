@@ -16,43 +16,16 @@ My main motivaiton is just that I think this idea would be really cool to have (
 
 Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
 
-The user would type the specification or description of an object they want a 3D model of as well as maybe the (more or less) dimensions of the object.
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+The user would type the specification or description of an object they want a 3D model of as well as maybe the (more or less) dimensions of the object. Then, the method would return a 3D file of what was described, so that if the person using the method wanted to change the model or play around with it, they could.
 
 ## Data sources and AI methods
 Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
 If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+
+The data source would be free 3D models of objects from the internet. To create this with the AI methods we have today I imagine we would have to use OpenAI's DALL-E to create images from text and feed its output to an AI method that creates 3D models of 2D images.
+
+In the future, maybe this could be changed and the method could directly make the models without having to create the images first. But that is the only way I could imagine this existing in the next few years.
 
 ## Challenges
 
@@ -62,11 +35,10 @@ What does your project _not_ solve? Which limitations and ethical considerations
 
 How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
 
+This project is way out of my reach. I think this idea resembles something an AI company would do more than something a person would do on their own in their free time or as a side project. DALL-E isn't even available to the public other than a controlled demo and a lot of the methods that create 3D models of 2D pictures do so of humans, as opposed to any type of object. This is definitely a project for the future.
+
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* [OpenAI's DALL-E](https://openai.com/blog/dall-e/) for getting me thinking what similar AI methods could be created.
+* 
