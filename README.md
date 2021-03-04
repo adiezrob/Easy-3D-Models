@@ -23,7 +23,7 @@ Where does your data come from? Do you collect it yourself or do you use data co
 If you need to use links, here's an example:
 
 
-The data source would be free 3D models of objects from the internet. To create this with the AI methods we have today I imagine we would have to use OpenAI's DALL-E to create images from text and feed its output to an AI method that creates 3D models of 2D images.
+The data source would be free 3D models of objects from the internet. To create this with the AI methods we have today I imagine we could use OpenAI's DALL-E to create images from text and feed its output to an AI method that creates 3D models of 2D images such as Nvidia's DIB-R.
 
 In the future, maybe this could be changed and the method could directly make the models without having to create the images first. But that is the only way I could imagine this existing in the next few years.
 
@@ -41,4 +41,3 @@ This project is way out of my reach. I think this idea resembles something an AI
 ## Acknowledgments
 
 * [OpenAI's DALL-E](https://openai.com/blog/dall-e/) for getting me thinking what similar AI methods could be created.
-* 
